@@ -1,9 +1,25 @@
 ;(() => {
   'use strict';
 
-  /** Initialize all functionality */
+  /* Selectors */
+  const html = document.querySelector('html');
+
+  /* Set the HTML element's attibutes based on saved config */
+  const toggleAttributes = () => {
+    chrome.storage.sync.get('config', ({ config }) => {
+      for (const key in config) {
+        if (config[key].enabled) {
+          html.setAttribute(key, true);
+        } else {
+          html.removeAttribute(key);
+        }
+      }
+    });
+  };
+
+  /* Initialize all functionality */
   const init = () => {
-    console.log('hello from content script');
+    toggleAttributes();
   };
 
   init();
