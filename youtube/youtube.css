@@ -1,0 +1,24 @@
+/* Home Page Feed */
+[hide_homepage_feed="true"] .ytd-browse[page-subtype="home"] {
+  display: none;
+}
+
+/* Related Video Section */
+[hide_related="true"] #related {
+  display: none;
+}
+
+/* Comments */
+[hide_comments="true"] #comments {
+  display: none;
+}
+
+/* Video Wall at End of Videos */
+[hide_videowall="true"] .videowall-endscreen {
+  display: none;
+}
+
+/* Embedded Video Thumbnails */
+[hide_embedded_thumbnails="true"] .ytp-ce-element.ytp-ce-element-show {
+  display: none;
+}
