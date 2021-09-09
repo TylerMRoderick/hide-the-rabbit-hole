@@ -1,0 +1,19 @@
+.popup {
+  width: 240px;
+}
+
+.popup__title {
+  margin: 0.5em 0 1em;
+  font-size: 1.25em;
+}
+
+.popup__footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.popup__footer-text {
+  margin-bottom: 0;
+  font-size: 90%;
+}
