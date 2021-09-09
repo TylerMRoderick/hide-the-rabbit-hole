@@ -21,3 +21,6 @@ https://dev.to/ben/how-to-install-chrome-extensions-manually-from-github-1612
 
 ## 📝  Bug reports, feature requests, etc.
 This project is intended for personal use and educational purposes only. If you want to add/change functionality, I recommend that you create your own fork.
+
+## ✍️ Credit
+Rabbit Icon: "Rabbit by parkjisun from the Noun Project"
