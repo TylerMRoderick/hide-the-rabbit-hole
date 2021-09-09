@@ -1,0 +1,33 @@
+{
+  "name": "Hide The Rabbit Hole",
+  "description": "Avoid the perils of the almighty recommendation engine and waste less time online",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+    "matches": ["*://*.youtube.com/*"],
+    "css": ["youtube/youtube.css"],
+    "js": ["youtube/youtube.js"],
+    "run_at": "document_start"
+    }
+  ],
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/rabbit-logo-16.png",
+      "32": "/images/rabbit-logo-32.png",
+      "48": "/images/rabbit-logo-48.png",
+      "128": "/images/rabbit-logo-128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/rabbit-logo-16.png",
+    "32": "/images/rabbit-logo-32.png",
+    "48": "/images/rabbit-logo-48.png",
+    "128": "/images/rabbit-logo-128.png"
+  }
+}
