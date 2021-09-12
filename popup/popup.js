@@ -11,7 +11,7 @@
 
     for (const key in config) {
       const val = config[key];
-      html += `<label for="${key}">
+      html += `<label class="popup__option" for="${key}">
                   <input type="checkbox" id="${key}" name="${key}" ${val.enabled ? 'checked' : ''}>
                   ${val.displayName}
                 </label>`;
