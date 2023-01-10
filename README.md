@@ -17,6 +17,10 @@ Currently, YouTube is the primary target since that is where I find these preven
 - Hide Embedded Video Thumbnails
 - Disable autoplay functionality
 
+## 💪 Motivation
+- Product goal: Create a simple, customized way to hide specific aspects of a webpage
+- Personal goal: Learn the basics of browser extension developent
+
 ## ⚙️ How To Install on Chrome
 https://dev.to/ben/how-to-install-chrome-extensions-manually-from-github-1612
 
