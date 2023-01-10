@@ -1,6 +1,7 @@
-# Hide The Rabbit Hole
+# Hide the Rabbit Hole (Chrome Extension)
 _Avoid the perils of the almighty recommendation engine and waste less time online._
 
+![Hide the Rabbit Hole Demo](/demo.gif "Hide YouTube Recommendations")
 
 ## 🤔 What is this?
 A browser extension that automatically hides attention-draining features. 
