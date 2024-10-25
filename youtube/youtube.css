@@ -4,18 +4,8 @@
 }
 
 /* Related Video Section */
-[hide_related="true"] #contents.ytd-rich-grid-renderer {
+[hide_related="true"] #related {
   display: none;
-}
-
-@media screen and (min-width: 1080px) {
-  [hide_related="true"] #primary {
-    display: none;
-  }
-
-  [hide_related="true"] #secondary.ytd-watch-grid {
-    width: 90%;
-  }
 }
 
 /* Comments */
